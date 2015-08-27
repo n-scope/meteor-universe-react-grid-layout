@@ -1,6 +1,6 @@
 Package.describe({
     name: 'universe:react-grid-layout',
-    version: '0.9.2',
+    version: '0.9.2_1',
     // Brief, one-line summary of the package.
     summary: 'A draggable and resizable grid layout with responsive breakpoints, for React',
     // URL to the Git repository containing the source code for this package.
@@ -20,6 +20,7 @@ Package.onUse(function (api) {
     // Generated with: github.com/philcockfield/meteor-package-paths
     api.addFiles('index.js');
     api.addFiles('index.import.jsx');
+    api.addFiles('css/styles.css');
     api.addFiles('lib/dependencies/cloneElement.import.jsx');
     api.addFiles('lib/dependencies/draggable.import.jsx');
     api.addFiles('lib/dependencies/getPrefix.import.jsx');
