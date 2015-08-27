@@ -4,6 +4,11 @@ React Grid Layout is a grid layout system built with React.
 RGL is React-only and does not require jQuery.
 This package is a meteor port of [STRML/react-grid-layout](https://github.com/STRML/react-grid-layout).
 
+### Installation
+
+```sh
+meteor add universe:react-grid-layout
+```
 
 ```js
 import {ReactGridLayout} from '{universe:react-grid-layout}';
