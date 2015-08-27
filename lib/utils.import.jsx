@@ -1,6 +1,6 @@
 import {objectAssign as assign} from '{universe:utilities-react}';
 
-export default {
+const utils = {
 
     /**
      * Return the bottom coordinate of the layout.
@@ -374,3 +374,5 @@ export default {
         }
     }
 };
+
+export default utils;

@@ -1,9 +1,8 @@
 import utils from './utils';
 import PureDeepRenderMixin from './mixins/PureDeepRenderMixin';
 import WidthListeningMixin from './mixins/WidthListeningMixin';
-import ReactGridLayout from './mixins/ReactGridLayout';
-
-var responsiveUtils = require('./responsiveUtils');
+import responsiveUtils from './responsiveUtils';
+import ReactGridLayout from './ReactGridLayout';
 
 /**
  * A wrapper around ReactGridLayout to support responsive breakpoints.
