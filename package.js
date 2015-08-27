@@ -13,8 +13,8 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.1.0.2');
     api.use([
-        'universe:modules',
-        'universe:utilities-react'
+        'universe:modules@0.4.1',
+        'universe:utilities-react@0.1.3'
     ]);
 
     // Generated with: github.com/philcockfield/meteor-package-paths
