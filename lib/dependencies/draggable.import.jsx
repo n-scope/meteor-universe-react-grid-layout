@@ -13,7 +13,7 @@ function createUIEvent(draggable) {
     // State changes are often (but not always!) async. We want the latest value.
     var state = draggable._pendingState || draggable.state;
     return {
-        node: draggable.getDOMNode(),
+        node: ReactDOM.findDOMNode(draggable),
         position: {
             top: state.clientY,
             left: state.clientX
@@ -154,7 +154,7 @@ function int(a) {
 
 function getBoundPosition(draggable, clientX, clientY) {
     var bounds = JSON.parse(JSON.stringify(draggable.props.bounds));
-    var node = draggable.getDOMNode();
+    var node = ReactDOM.findDOMNode(draggable);
     var parent = node.parentNode;
 
     if (bounds === 'parent') {

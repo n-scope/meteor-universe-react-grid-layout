@@ -1,6 +1,6 @@
 Package.describe({
     name: 'universe:react-grid-layout',
-    version: '0.9.2_1',
+    version: '0.10.0',
     // Brief, one-line summary of the package.
     summary: 'A draggable and resizable grid layout with responsive breakpoints, for React',
     // URL to the Git repository containing the source code for this package.

@@ -37,7 +37,7 @@ export default {
      * On window resize, update width.
      */
     onWindowResize: function() {
-        this.onWidthChange(this.getDOMNode().offsetWidth);
+        this.onWidthChange(ReactDOM.findDOMNode(this).offsetWidth);
     }
 
 };
