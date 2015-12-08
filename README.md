@@ -22,9 +22,9 @@ export default React.createClass({
 ### Installation
 
 ```sh
-meteor add universe:react-grid-layout
+meteor add universe:react-grid-layout universe:modules
 ```
-
+Also it works with `universe:ecmascript`
 #### Demos
 
 1. [Showcase](https://strml.github.io/react-grid-layout/examples/0-showcase.html)
